@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Theme</title>
+    <link rel="stylesheet" href="theme/assets/css/bamburgh.min.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link rel="stylesheet" href="slick/slick/slick.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg p-3 mb-5 mb-md-0 navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand d-40 bg-white rounded-circle text-center" href="#">
+            <img src="images/car.png" class="d-inline-block my-auto" width="26px">
+        </a>
+        <button class="navbar-toggler is-active collapsed hamburger hamburger--elastic" type="button" data-toggle="collapse" data-target="#nav-inner-primary" aria-controls="nav-inner-primary" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-inner-primary">
+            <ul class="navbar-nav ml-lg-auto mt-md-0 mt-2 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav-inner-primary_dropdown_1" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cars</a>
+                    <div class="dropdown-menu dropdown-menu-right"
+                         aria-labelledby="nav-inner-primary_dropdown_1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+                <li class="nav-item mr-2">
+                    <button class="btn btn-outline-success btn-pill">
+                        <span class="btn-wrapper--icon">
+                        <i class="fal fa-user"></i>
+                        </span>
+                        Signup</button>
+
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn btn-warning btn-pill">
+                         <span class="btn-wrapper--icon">
+                        <i class="fal fa-sign-in"></i>
+                         </span>
+                        Login</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid bg-primary">
+    <h1 class="display-3 font-weight-bold text-white text-center">Find The Best Cars Near you</h1>
+
+    <div class="row">
+        <div class="col p-5">
+            <div role="group" class="btn-group-sm nav btn-group w-25 mb-2">
+                <a data-toggle="tab" href="#tab-eg1-1" class="active btn btn-primary">New cars</a>
+                <a data-toggle="tab" href="#tab-eg1-2" class="btn btn-primary">Used Cars</a>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab-eg1-1" role="tabpanel">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Make">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <input type="password" class="form-control" id="inputPassword46" placeholder="Price">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Location">
+                    </div>
+
+                    <div class="form-group col-md-3">
+                        <button class="btn btn-danger">Search</button>
+                    </div>
+                </div>
+            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row bg-light car-slides w-100 justify-content-center align-items-center">
+    <div class="container py-5">
+        <div class="card shadow-xxl mb-5">
+            <div class="p-5">
+                <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="feature-box-img p-4 p-lg-0 mb-5 mb-lg-0">
+                        <img src="images/pexels-albin-berlin-905554.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="pl-0 pl-lg-5 py-0 py-lg-2 text-center text-lg-left">
+                        <div class="mb-4">
+                            <span class="badge badge-pill badge-success">New Release</span>
+                            <h1 class="display-4 mt-3 font-weight-bold">
+                                Volutpat pretium libero.
+                            </h1>
+                            <div class="my-4">
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-primary p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-moon-rain"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-success p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-sun"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="btn btn-danger p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-meatball"></i>
+                                </a>
+                            </div>
+                            <p class="font-size-lg text-black-50">
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+                            </p>
+                        </div>
+                        <div class="wow fadeIn" data-wow-delay="1s">
+                            <a href="#" class="btn btn-lg btn-primary d-block d-sm-inline-block">
+                               <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    View Details
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-lg btn-outline-second d-block d-sm-inline-block ml-0 mt-3 mt-sm-0 ml-sm-3" title="View documentation">
+                                <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    Documentation
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--slide 2-->
+    <div class="container py-5">
+        <div class="card shadow-xxl mb-5">
+            <div class="p-5">
+                <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="feature-box-img p-4 p-lg-0 mb-5 mb-lg-0">
+                        <img src="images/pexels-mike-112452.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="pl-0 pl-lg-5 py-0 py-lg-2 text-center text-lg-left">
+                        <div class="mb-4">
+                            <span class="badge badge-pill badge-success">New Release</span>
+                            <h1 class="display-4 mt-3 font-weight-bold">
+                                Volutpat pretium libero.
+                            </h1>
+                            <div class="my-4">
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-primary p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-moon-rain"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-success p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-sun"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="btn btn-danger p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-meatball"></i>
+                                </a>
+                            </div>
+                            <p class="font-size-lg text-black-50">
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+                            </p>
+                        </div>
+                        <div class="wow fadeIn" data-wow-delay="1s">
+                            <a href="#" class="btn btn-lg btn-primary d-block d-sm-inline-block">
+                               <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    View Details
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-lg btn-outline-second d-block d-sm-inline-block ml-0 mt-3 mt-sm-0 ml-sm-3" title="View documentation">
+                                <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    Documentation
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--slide 3-->
+    <div class="container py-5">
+        <div class="card shadow-xxl mb-5">
+            <div class="p-5">
+                <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="feature-box-img p-4 p-lg-0 mb-5 mb-lg-0">
+                        <img src="images/pexels-mike-170811.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="pl-0 pl-lg-5 py-0 py-lg-2 text-center text-lg-left">
+                        <div class="mb-4">
+                            <span class="badge badge-pill badge-success">New Release</span>
+                            <h1 class="display-4 mt-3 font-weight-bold">
+                                Volutpat pretium libero.
+                            </h1>
+                            <div class="my-4">
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-primary p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-moon-rain"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="mr-3 btn btn-success p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-sun"></i>
+                                </a>
+                                <a data-toggle="tooltip" href="#" class="btn btn-danger p-0 d-inline-block text-center font-size-lg d-50 rounded" title="Menu Example">
+                                    <i class="fas fa-cloud-meatball"></i>
+                                </a>
+                            </div>
+                            <p class="font-size-lg text-black-50">
+                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+                            </p>
+                        </div>
+                        <div class="wow fadeIn" data-wow-delay="1s">
+                            <a href="#" class="btn btn-lg btn-primary d-block d-sm-inline-block">
+                               <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    View Details
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-lg btn-outline-second d-block d-sm-inline-block ml-0 mt-3 mt-sm-0 ml-sm-3" title="View documentation">
+                                <span class="btn-wrapper--icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="btn-wrapper--label">
+                                    Documentation
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----car lists-->
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-warning">Warning</span>
+                </div>
+                <img src="images/pexels-mike-170811.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-neutral-info text-info">Info</span>
+                </div>
+                <img src="images/pexels-mike-112452.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-danger">Danger</span>
+                </div>
+                <img src="images/pexels-albin-berlin-905554.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----car lists-->
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-warning">Warning</span>
+                </div>
+                <img src="images/pexels-mike-170811.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-neutral-info text-info">Info</span>
+                </div>
+                <img src="images/pexels-mike-112452.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-danger">Danger</span>
+                </div>
+                <img src="images/pexels-albin-berlin-905554.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!----car lists-->
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-warning">Warning</span>
+                </div>
+                <img src="images/pexels-mike-170811.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-neutral-info text-info">Info</span>
+                </div>
+                <img src="images/pexels-mike-112452.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card card-transparent mb-5">
+            <div class="card-img-wrapper">
+                <div class="card-badges card-badges-bottom">
+                    <span class="badge badge-danger">Danger</span>
+                </div>
+                <img src="images/pexels-albin-berlin-905554.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-pill btn-sm btn-outline-first mt-1" type="button">View Details</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--footer-->
+<div class="bg-second py-5">
+    <div class="container py-5">
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-5 d-flex align-items-center">
+                <div class="mb-5 mb-lg-0 w-100">
+                    <a href="#" title="">
+                        <div class="navbar-brand d-50 bg-white rounded-circle text-center" data-toggle="tooltip" data-tooltip-class="tooltip-secondary" data-html="true" title="" data-original-title="Welcome to uiFort 😀">
+                            <img src="../assets/img/logo.png" class="d-inline-block my-auto" width="26px">
+                        </div>
+                    </a>
+                    <p class="mb-5 mt-4 text-white-50">
+                        I will give you a complete account of the system, and expound the actual teachings.
+                    </p>
+                    <div>
+                        <a href="#" class="btn btn-first mr-3">
+                            Contact us
+                        </a>
+                        <a href="#" class="btn btn-outline-first">
+                            Affiliates
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none col-lg-7 d-md-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-md-4">
+                        <div class="divider-v divider-v-lg opacity-1 d-none d-lg-block"></div>
+                        <div class="pl-3">
+                            <h6 class="text-white font-weight-bold mb-3">
+                                Services
+                            </h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">About us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="divider-v divider-v-lg opacity-1 d-none d-lg-block"></div>
+                        <div class="pl-3">
+                            <h6 class="text-white font-weight-bold mb-3">
+                                Support
+                            </h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Support center</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Affiliates</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pl-3">
+                            <h6 class="text-white font-weight-bold mb-3">
+                                UI Themes
+                            </h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">React themes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">HTML5 themes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link px-0 py-1 text-white-50">Angular themes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider border-2 d-none d-md-block rounded-circle border-white bg-white opacity-2 mx-auto my-5 w-50"></div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link font-size-lg text-white-50" data-toggle="tooltip" data-tooltip-class="tooltip-secondary" href="#" title="Facebook">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-size-lg text-white-50" data-toggle="tooltip" data-tooltip-class="tooltip-secondary" href="#" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-size-lg text-white-50" data-toggle="tooltip" data-tooltip-class="tooltip-secondary" href="#" title="Google+">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-size-lg text-white-50" data-toggle="tooltip" data-tooltip-class="tooltip-secondary" href="#" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="theme/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="theme/assets/js/demo/bootstrap/bootstrap.min.js"></script>
+<script src="theme/assets/js/demo/sweet-alerts/sweetalert.min.js"></script>
+<!--Select2-->
+
+<script src="theme/assets/vendor/select2/js/select2.min.js"></script>
+
+<!--Select2 init-->
+
+<script src="theme/assets/js/demo/select2/select2.min.js"></script>
+<script src="slick/slick/slick.js"></script>
+<script>
+    $('.car-slides').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        arrows: true,
+         dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+</script>
+
+</body>
+</html>
